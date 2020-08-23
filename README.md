@@ -26,8 +26,6 @@ The easiest way to get the sample is by cloning the samples repository with [git
 git clone https://github.com/microsoft/dotnet-framework-docker/
 ```
 
-You can also [download the repository as a zip](https://github.com/microsoft/dotnet-framework-docker/archive/master.zip).
-
 ## Build and run the sample with Docker
 
 You can build and run the sample in Docker using the following commands. The instructions assume that you are in the root of the repository.
@@ -54,8 +52,6 @@ Note: The `-p` argument maps port 8000 on your local machine to port 80 in the c
 
 Multiple variations of this sample have been provided, as follows. Some of these example Dockerfiles are demonstrated later. Specify an alternate Dockerfile via the `-f` argument.
 
-* [Sample with basic build using multi-arch tags](Dockerfile)
-* [Sample for Windows Server Core LTSC 2016](Dockerfile.windowsservercore-ltsc2016)
 
 ### View the ASP.NET app in a running container on Windows
 
